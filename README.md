@@ -1,59 +1,32 @@
-<<<<<<< HEAD
-# Portal-Info.-Volta-Grande
-Projeto TCC da faculdade.
-=======
 # Volta Grande Conectada
 
-Projeto fictício de TCC com o tema **Guia Comercial e Informativo da Cidade de Volta Grande**.
+Projeto ficticio de TCC com o tema **Guia Comercial e Informativo da Cidade de Volta Grande**.
 
-## Objetivo
+## Resumo
 
-Desenvolver uma plataforma web simples, moderna e responsiva para centralizar informações sobre comércios, eventos e notícias locais. A proposta simula um portal informativo para moradores e visitantes consultarem dados úteis da cidade.
+O projeto e um portal municipal informativo, desenvolvido em HTML, CSS e JavaScript puro, para centralizar informacoes sobre comercios locais, eventos, noticias e canais de contato da cidade de Volta Grande. A proposta simula uma pagina institucional de prefeitura, com layout responsivo, busca por estabelecimentos e conteudo ficticio organizado para apresentacao academica.
+
+## Funcionalidades
+
+- Cabecalho fixo com brasao, menu de navegacao, campo de busca e data/hora em tempo real.
+- Hero com carrossel horizontal de imagens usando `assets/img/1.webp` a `assets/img/4.webp`.
+- Lista de comercios ficticios com nome, categoria, endereco, telefone, horario e descricao.
+- Busca de comercio pelo campo do menu e pelo campo da secao de comercios.
+- Filtro de comercios por categoria.
+- Botao `Ver detalhes` abrindo uma pesquisa do estabelecimento no Google Maps.
+- Secao de eventos com imagens seguindo o padrao `assets/img/evento1.webp`, `evento2.webp` etc.
+- Secao de noticias com imagens seguindo o padrao `assets/img/noticia1.webp`, `noticia2.webp` etc.
+- Formulario de contato com simulacao de envio via JavaScript.
+- Menu mobile funcional.
+- Botao de voltar ao topo.
+- Animacoes suaves de entrada dos elementos.
 
 ## Tecnologias
 
 - HTML5
 - CSS3
-- JavaScript puro
-- Dados simulados em arrays JavaScript
-- Sem frameworks
-- Sem backend
+- JavaScript
 
-## Estrutura
+## Observacao academica
 
-```text
-index.html
-css/
-  style.css
-js/
-  main.js
-assets/
-  img/
-    volta-grande-hero.svg
-  icons/
-    map-pin.svg
-README.md
-```
-
-## Funcionalidades
-
-- Home com hero, pesquisa e chamadas para ação.
-- Lista com 12 comércios fictícios.
-- Filtro por categoria e busca por nome em tempo real.
-- Agenda com 6 eventos fictícios.
-- Área com 4 notícias fictícias.
-- Formulário de contato.
-- Menu mobile funcional.
-- Botão de voltar ao topo.
-- Animações suaves com CSS e JavaScript.
-
-## Como executar
-
-Abra o arquivo `index.html` diretamente no navegador.
-
-Também é possível usar uma extensão como Live Server no VS Code, mas o projeto não depende de servidor para funcionar.
-
-## Observação acadêmica
-
-Este projeto é fictício e foi criado para apresentação de TCC. Os estabelecimentos, eventos, notícias e contatos usados no site são simulados para demonstrar a organização visual e a lógica de funcionamento da plataforma.
->>>>>>> 9ec880c (Subiu projeto)
+Este projeto e ficticio e foi criado para apresentacao de TCC. Os estabelecimentos, eventos, noticias e contatos usados no site sao simulados para demonstrar a organizacao visual e a logica de funcionamento da plataforma.
