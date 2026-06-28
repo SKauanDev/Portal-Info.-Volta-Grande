@@ -1,0 +1,33 @@
+<svg width="900" height="640" viewBox="0 0 900 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Portal comercial municipal</title>
+  <desc id="desc">Ilustração de uma praça com lojas, árvores e painéis de informação.</desc>
+  <rect width="900" height="640" rx="8" fill="#F4F8FB"/>
+  <rect x="68" y="92" width="764" height="410" rx="8" fill="#FFFFFF" stroke="#D9E2EC" stroke-width="3"/>
+  <rect x="68" y="92" width="764" height="74" rx="8" fill="#0F5FA8"/>
+  <circle cx="114" cy="129" r="15" fill="#FFFFFF" opacity="0.95"/>
+  <rect x="148" y="115" width="260" height="28" rx="6" fill="#FFFFFF" opacity="0.95"/>
+  <rect x="590" y="116" width="70" height="25" rx="6" fill="#DFF2E9"/>
+  <rect x="676" y="116" width="70" height="25" rx="6" fill="#DFF2E9"/>
+  <rect x="164" y="228" width="154" height="160" rx="8" fill="#E9F4FF" stroke="#0F5FA8" stroke-width="3"/>
+  <rect x="194" y="272" width="94" height="116" fill="#FFFFFF"/>
+  <rect x="185" y="212" width="112" height="44" rx="6" fill="#198754"/>
+  <rect x="201" y="226" width="80" height="13" rx="4" fill="#FFFFFF"/>
+  <rect x="370" y="220" width="160" height="168" rx="8" fill="#E7F6EE" stroke="#198754" stroke-width="3"/>
+  <rect x="401" y="278" width="98" height="110" fill="#FFFFFF"/>
+  <rect x="391" y="204" width="118" height="46" rx="6" fill="#0F5FA8"/>
+  <rect x="407" y="219" width="86" height="13" rx="4" fill="#FFFFFF"/>
+  <rect x="584" y="228" width="154" height="160" rx="8" fill="#F8FBFD" stroke="#D9E2EC" stroke-width="3"/>
+  <rect x="614" y="274" width="94" height="114" fill="#FFFFFF"/>
+  <rect x="606" y="212" width="110" height="44" rx="6" fill="#198754"/>
+  <rect x="625" y="226" width="72" height="13" rx="4" fill="#FFFFFF"/>
+  <rect x="132" y="430" width="636" height="26" rx="13" fill="#D9E2EC"/>
+  <circle cx="162" cy="464" r="34" fill="#198754"/>
+  <rect x="156" y="412" width="12" height="76" rx="6" fill="#10643D"/>
+  <circle cx="735" cy="464" r="34" fill="#198754"/>
+  <rect x="729" y="412" width="12" height="76" rx="6" fill="#10643D"/>
+  <rect x="205" y="502" width="490" height="46" rx="23" fill="#0A3F73"/>
+  <rect x="284" y="516" width="332" height="17" rx="8" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="450" cy="305" r="52" fill="#FFFFFF" stroke="#0F5FA8" stroke-width="8"/>
+  <path d="M450 270C431 270 416 285 416 304C416 332 450 358 450 358C450 358 484 332 484 304C484 285 469 270 450 270Z" fill="#198754"/>
+  <circle cx="450" cy="304" r="12" fill="#FFFFFF"/>
+</svg>

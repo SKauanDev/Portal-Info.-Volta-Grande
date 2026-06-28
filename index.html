@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Guia Comercial e Informativo da Cidade de Volta Grande">
+  <title>Volta Grande Conectada</title>
+  <link rel="icon" type="image/png" href="assets/img/brasao-volta-grande.png">
+  <link rel="shortcut icon" type="image/png" href="assets/img/brasao-volta-grande.png">
+  <link rel="apple-touch-icon" href="assets/img/brasao-volta-grande.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header" id="topo">
+    <div class="topbar">
+      <div class="container topbar-content">
+        <span>Portal Informativo Municipal de Volta Grande - MG</span>
+        <span id="currentDateTime" aria-label="Data e hora atuais"></span>
+      </div>
+    </div>
+
+    <nav class="navbar container" aria-label="Menu principal">
+      <a class="brand" href="#home" aria-label="Volta Grande Conectada">
+        <span class="brand-icon" aria-hidden="true">
+          <img src="assets/img/brasao-volta-grande.png" alt="">
+        </span>
+        <span>
+          <strong>Volta Grande Conectada</strong>
+          <small>Portal municipal informativo</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#comercios">Comércio</a></li>
+        <li><a href="#eventos">Eventos</a></li>
+        <li><a href="#noticias">Notícias</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li>
+          <div class="nav-search" role="search">
+            <input id="navSearch" type="search" placeholder="Buscar comércio" aria-label="Buscar comércio">
+            <button type="button" id="navSearchButton" aria-label="Pesquisar">
+              <img src="assets/icons/icon-search.svg" alt="">
+            </button>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-carousel" aria-hidden="true">
+        <div class="hero-carousel-track">
+          <div class="hero-slide" style="background-image: url('assets/img/1.webp');"></div>
+          <div class="hero-slide" style="background-image: url('assets/img/2.webp');"></div>
+          <div class="hero-slide" style="background-image: url('assets/img/3.webp');"></div>
+          <div class="hero-slide" style="background-image: url('assets/img/4.webp');"></div>
+        </div>
+      </div>
+
+      <div class="container hero-grid">
+        <div class="hero-content hero-card reveal">
+          <p class="eyebrow">Portal da cidade</p>
+          <h1>Volta Grande Conectada</h1>
+          <p class="hero-subtitle">
+            Guia público e informativo para consultar comércios, eventos, notícias e dados úteis
+            de Volta Grande em um só ambiente digital.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#comercios">Consultar comércios</a>
+            <a class="btn btn-secondary" href="#noticias">Últimas notícias</a>
+          </div>
+        </div>
+
+        <aside class="hero-side-card reveal" aria-label="Boletim informativo">
+          <span class="side-badge">Boletim municipal</span>
+          <h2>Informações de interesse público</h2>
+          <p>Dados simulados sobre comércio local, agenda comunitária, campanhas e notícias para apoiar moradores e visitantes.</p>
+          <a class="btn btn-primary" href="#eventos">Ver agenda</a>
+          <div class="hero-metrics">
+            <strong>10+</strong>
+            <span>estabelecimentos listados</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="feature-strip" aria-label="Destaques do guia">
+      <div class="container feature-grid">
+        <article class="feature-item reveal">
+          <span>Guia</span>
+          <strong>Comércio local</strong>
+          <p>Empresas organizadas por categoria para facilitar a consulta.</p>
+        </article>
+        <article class="feature-item reveal">
+          <span>Agenda</span>
+          <strong>Eventos da cidade</strong>
+          <p>Programações comunitárias reunidas em uma área informativa.</p>
+        </article>
+        <article class="feature-item reveal">
+          <span>Notícias</span>
+          <strong>Comunicados locais</strong>
+          <p>Conteúdos fictícios sobre campanhas, economia e ações municipais.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="comercios">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Comércio local</p>
+          <h2>Empresas cadastradas</h2>
+          <p>Dados fictícios para demonstrar o funcionamento do guia comercial.</p>
+        </div>
+
+        <div class="toolbar reveal">
+          <label>
+            <span>Buscar por nome</span>
+            <input id="businessSearch" type="search" placeholder="Ex.: Padaria, Mercado, Loja">
+          </label>
+          <label>
+            <span>Filtrar categoria</span>
+            <select id="categoryFilter">
+              <option value="Todas">Todas as categorias</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="result-info" id="businessCount"></div>
+        <div class="card-grid" id="businessGrid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="eventos">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Agenda da cidade</p>
+          <h2>Eventos</h2>
+          <p>Programações fictícias para apresentar como a plataforma pode divulgar atividades locais.</p>
+        </div>
+        <div class="card-grid" id="eventsGrid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="noticias">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Informação local</p>
+          <h2>Notícias</h2>
+          <p>Conteúdos simulados sobre economia, campanhas, feiras e ações comunitárias.</p>
+        </div>
+        <div class="news-grid" id="newsGrid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="sobre">
+      <div class="container about-grid">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Sobre o projeto</p>
+          <h2>Projeto acadêmico fictício</h2>
+          <p>
+            O Guia Comercial e Informativo da Cidade de Volta Grande foi idealizado como um TCC
+            para demonstrar o uso de HTML, CSS e JavaScript na criação de uma solução de utilidade pública.
+          </p>
+        </div>
+        <div class="info-panel reveal">
+          <h3>Impacto proposto</h3>
+          <p>
+            A proposta valoriza a inclusão digital, o empreendedorismo local e o acesso simples
+            a informações da cidade. Moradores e visitantes poderiam consultar comércios,
+            campanhas, eventos e notícias em um único portal.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="contato">
+      <div class="container contact-grid">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Fale conosco</p>
+          <h2>Contato</h2>
+          <p>Canal fictício para dúvidas, sugestões e parcerias locais.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Instagram fictício">Instagram</a>
+            <a href="#" aria-label="Facebook fictício">Facebook</a>
+            <a href="#" aria-label="WhatsApp fictício">WhatsApp</a>
+          </div>
+        </div>
+
+        <form class="form-card reveal" id="contactForm">
+          <label>Nome
+            <input name="nome" type="text" required placeholder="Seu nome">
+          </label>
+          <label>E-mail
+            <input name="email" type="email" required placeholder="seuemail@exemplo.com">
+          </label>
+          <label>Mensagem
+            <textarea name="mensagem" rows="5" required placeholder="Escreva sua mensagem"></textarea>
+          </label>
+          <button class="btn btn-primary" type="submit">Enviar mensagem</button>
+          <p class="form-message" id="contactFormMessage" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>Volta Grande Conectada</strong>
+        <p>Guia comercial e informativo fictício desenvolvido para apresentação acadêmica.</p>
+      </div>
+      <div>
+        <strong>Seções</strong>
+        <p>Comércios, eventos, notícias, sobre e contato.</p>
+      </div>
+      <div>
+        <strong>Projeto TCC</strong>
+        <p>HTML5/CSS3/JS.</p>
+      </div>
+    </div>
+    <p class="copyright">© 2026 Volta Grande Conectada.</p>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" type="button" aria-label="Voltar ao topo">↑</button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
